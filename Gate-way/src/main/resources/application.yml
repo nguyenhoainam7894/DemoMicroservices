@@ -1,0 +1,21 @@
+server:
+  port: 8763
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      default-zone: http://localhost:8761/eureka/
+
+spring:
+  application.name: gate-way
+  cloud:
+    gateway:
+      routes:
+        - id: gallery-service
+          uri: http://localhost:8100/
+          predicates:
+            - Path=/**

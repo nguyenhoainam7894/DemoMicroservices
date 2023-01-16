@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Eureka-server/Eureka-server.iml" filepath="$PROJECT_DIR$/Eureka-server/Eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gallery-server/Gallery-server.iml" filepath="$PROJECT_DIR$/Gallery-server/Gallery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gate-way/Gate-way.iml" filepath="$PROJECT_DIR$/Gate-way/Gate-way.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Image-server/Image-server.iml" filepath="$PROJECT_DIR$/Image-server/Image-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Microservice.iml" filepath="$PROJECT_DIR$/.idea/Microservice.iml" />
+    </modules>
+  </component>
+</project>
