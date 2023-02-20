@@ -2,6 +2,7 @@ package com.Microservice.Galleryserver.Entity;
 
 import java.util.List;
 
+import com.Microservice.Galleryserver.Response.Image;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -15,5 +16,5 @@ import lombok.Setter;
 @Builder
 public class Gallery {
     private Integer id;
-    private List<Object> images;
+    private List<Image> images;
 }
